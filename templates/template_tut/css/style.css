@@ -1,22 +1,25 @@
-.main_container {
-    width:940px;
-    margin-left:auto;
-    margin-right:auto;
+.mostread,
+.weblinks,
+.category-module,
+.syndicate-module,
+ul.nav.menu,
+#login-form {
+         -moz-border-radius: 5px;
+         -webkit-border-radius: 5px;
+         -khtml-border-radius: 5px;
+         border-radius: 5px;
+         background:#eee;
+         border:1px solid #ccc;
+         padding:5px;
+         margin:0px 0px 10px 0px;
 }
-.mid_container {
-    margin:20px 0px;
+
+.mostread, 
+.weblinks, 
+.category-module {
+         padding:0px 0px 0px 20px; 
 }
-.main_content_area {
-    float:left;
-    width:700px;
-}
-.right_sidebar {
-    float:right;
-    width: 220px;
-}
-.main_content_area,
-.right_sidebar,
-.footer,
-.header {
-    border:1px solid #bbb;
+
+.syndicate-module {
+         display:block; 
 }
