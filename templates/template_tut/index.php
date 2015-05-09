@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
 <?php
 
 $doc = JFactory::getDocument();
 
+$doc->addStyleSheet($this->baseurl . '/media/jui/css/bootstrap.min.css');
 $doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
 $doc->addScript('/templates/' . $this->template . '/js/main.js', 'text/javascript');
 
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <jdoc:include type="head" />
 </head>
 <body>
 <!-- main container -->
