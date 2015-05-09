@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
-<script src="js/main.js" type="text/javascript"></script>
+<?php
+
+$doc = JFactory::getDocument();
+
+$doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
+$doc->addScript('/templates/' . $this->template . '/js/main.js', 'text/javascript');
+
+?>
 </head>
 <body>
 <!-- main container -->
